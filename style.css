@@ -1,0 +1,62 @@
+  
+  :root {
+    --twitter-color: #55ACEE;
+    --youtube-color: #c4302b;
+    --spotify-color: #00C300;
+  }
+  
+  body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  main {
+    width: 320px;
+    height: 230;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-around;
+  }
+  
+  main > div {
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    line-height: 50px;
+    font-size: 20px;
+    font-family: impact;
+    font-weight: 500;
+    text-indent: 3em;
+    margin: 10px;
+  } 
+  
+    #spotify {
+      border: 1.5px solid var(--spotify-color);     
+      color: var(--spotify-color);
+    } 
+      #spotify:hover {
+        color: white;
+        background: var(--spotify-color);
+      }
+    #youtube {
+      border:1.5px solid var(--youtube-color); 
+      color: var(--youtube-color);
+    }
+      #youtube:hover {
+        color: white;
+        background: var(--youtube-color);
+      }
+    #twitter {
+      border:1.5px solid var(--twitter-color);  
+      color: var(--twitter-color);
+    } 
+      #twitter:hover {
+        color: white;
+        background: var(--twitter-color);
+      }
+     
